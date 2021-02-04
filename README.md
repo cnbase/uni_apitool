@@ -38,7 +38,7 @@ npm install axios --save
 - **下载uni_apitool对应版本，并覆盖到对应目录**
 
 ```
-待上传
+https://github.com/ibzero/uni_apitool/archive/v1.0.zip
 ```
 
 - **运行或构建**
