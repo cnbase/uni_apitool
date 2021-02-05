@@ -3,6 +3,6 @@
  * 如：按需打包、Rem布局适配时
  * @type {string}
  */
-const extraFilePath = './extra/element.js';
+const extraFilePath = './extra/default.js';
 
 module.exports = require(extraFilePath)

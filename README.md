@@ -22,8 +22,13 @@ uniHTML2 based on vue2
 ```
 npm install
 npm i element-ui -S
-npm install babel-plugin-component -D
 npm install axios --save
+#修改uni_config/extra.js
+#完整引入组件，第6行
+const extraFilePath = './extra/default.js';
+#按需引入组件，第6行
+npm install babel-plugin-component -D
+const extraFilePath = './extra/element.js';
 ```
 
 uniHTML3 based on vue3
@@ -31,8 +36,13 @@ uniHTML3 based on vue3
 ```
 npm install
 npm install element-plus --save
-npm install babel-plugin-component -D
 npm install axios --save
+#修改uni_config/extra.js
+#完整引入组件，第6行
+const extraFilePath = './extra/default.js';
+#按需引入组件，第6行
+npm install babel-plugin-component -D
+const extraFilePath = './extra/element_plus.js';
 ```
 
 - **下载uni_apitool对应版本，并覆盖到对应目录**
